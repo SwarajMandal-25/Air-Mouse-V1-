@@ -14,18 +14,22 @@
 
 ## Connection Diagram
 ![image](img/connection_top.png)
+
+Top Side
 ![image](img/connection_bottom.png)
+
+Bottom Side
 
 ## Configuration
 
 Download and instal Arduino IDE. Open Arduino IDE and go to files and then preferences, copy and paste the Seeed XIAO nRF52840 boards package link (Provided in the required libraries section)  in the additional boards manager url section, and click **OK**.
 ![image](img/pref_1.png)
-Top Side
+
 ![image](img/pref_2.png)
-Bottom Side
 
 And download SEEED nRF52 board library.
 ![image](img/boards_lib1.png)
+
 ![image](img/boards_lib2.png)
 
 Now download the LSM6DS3 librarie.
