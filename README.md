@@ -21,3 +21,14 @@ And download SEEED nRF52 board library.
 ![image]()
 ![image]()
 
+Now download the LSM6DS3 librarie.
+![image]()
+
+Now extract the zip file named firmare.zip, and open the 'Air_mouse_BLE_Wired.ino' file with Arduino IDE. connect the Seeed XIAO nRF52840 Sense board with your PC and press the 'Reset' button twice. In Arduino IDE, go to the **Tools** tab, under **Boards:** menu, inside **Seeed nRF Boards**, select "**Seeed XIAO nRF52840 Sense**".
+![image]()
+Again go to **Tools** tab, under **Port:** select the right **COM Port** associated to your **Seeed XIAO nRF52840 Sense Board**.
+![image]()
+
+Now click the **Upload** button on the top left corner of the Arduino IDE.
+![image]()
+
