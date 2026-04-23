@@ -13,7 +13,7 @@
 - LSM6DS3
 
 ## Connection Diagram
-![image]()
+![image](img/connection_top.png)
 ![image]()
 
 ## Configuration
