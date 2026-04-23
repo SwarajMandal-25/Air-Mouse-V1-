@@ -13,6 +13,7 @@
 - LSM6DS3
 
 ## Configuration
+
 Download and instal Arduino IDE. Open Arduino IDE and go to files and then preferences, copy and paste the Seeed XIAO nRF52840 boards package link (Provided in the required libraries section)  in the additional boards manager url section, and click **OK**.
 ![image]()
 ![image]()
@@ -31,4 +32,13 @@ Again go to **Tools** tab, under **Port:** select the right **COM Port** associa
 
 Now click the **Upload** button on the top left corner of the Arduino IDE.
 ![image]()
+
+Immediately after uploading the firmware, the **Air Mouse** will pair with the PC in **Wired Mode**.
+It needs calibration before every time you power it on.
+
+## Calibration
+
+Before you power on the **Air Mouse**, place it on an flat surface and then power it on. It wil automatically calibrate itself. After calibration it will enter **Pairing Mode**, until then don't move the **Air Mouse**.
+
+## Pairing
 
