@@ -14,28 +14,31 @@
 
 ## Connection Diagram
 ![image](img/connection_top.png)
-![image]()
+![image](img/connection_bottom.png)
 
 ## Configuration
 
 Download and instal Arduino IDE. Open Arduino IDE and go to files and then preferences, copy and paste the Seeed XIAO nRF52840 boards package link (Provided in the required libraries section)  in the additional boards manager url section, and click **OK**.
-![image]()
-![image]()
+![image](img/pref_1.png)
+Top Side
+![image](img/pref_2.png)
+Bottom Side
 
 And download SEEED nRF52 board library.
-![image]()
-![image]()
+![image](img/boards_lib1.png)
+![image](img/boards_lib2.png)
 
 Now download the LSM6DS3 librarie.
-![image]()
+![image](img/lib_1.png)
 
 Now extract the zip file named firmare.zip, and open the 'Air_mouse_BLE_Wired.ino' file with Arduino IDE. connect the Seeed XIAO nRF52840 Sense board with your PC and press the 'Reset' button twice. In Arduino IDE, go to the **Tools** tab, under **Boards:** menu, inside **Seeed nRF Boards**, select "**Seeed XIAO nRF52840 Sense**".
-![image]()
+![image](img/board_select.png)
+
 Again go to **Tools** tab, under **Port:** select the right **COM Port** associated to your **Seeed XIAO nRF52840 Sense Board**.
-![image]()
+![image](img/com_port.png)
 
 Now click the **Upload** button on the top left corner of the Arduino IDE.
-![image]()
+![image](img/upload.png)
 
 Immediately after uploading the firmware, the **Air Mouse** will pair with the PC in **Wired Mode**.
 It needs calibration before every time you power it on.
